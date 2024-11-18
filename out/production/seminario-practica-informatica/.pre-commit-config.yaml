@@ -5,6 +5,7 @@ repos:
       - id: trailing-whitespace  # Elimina espacios en blanco al final de las líneas
       - id: end-of-file-fixer    # Asegura una línea vacía al final del archivo
       - id: check-yaml           # Verifica archivos YAML válidos
+      - id: check-added-large-files  # Avisa si se agregan archivos grandes
       - id: check-merge-conflict  # Detecta conflictos de merge sin resolver
 
   - repo: https://github.com/pre-commit/mirrors-mypy
